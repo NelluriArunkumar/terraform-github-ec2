@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: Checkout the Code
         uses: actions/checkout@v5
-        runs: ls -la
+        run: ls -la
